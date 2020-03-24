@@ -61,12 +61,10 @@ bool check(const char *word)
                 return true;
             }
         }
-        /*
         else if (wordLength < tmp->wordLength)
         {
             return false;
         }
-        */
         tmp = tmp->next;
     }
 
